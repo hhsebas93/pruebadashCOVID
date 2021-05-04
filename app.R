@@ -6,6 +6,8 @@ library(data.table)
 library(htmltools)
 library(shiny)
 
+load("~/Pruebas Dashboard/data/DATOS.RDATA")
+
 ui <- dashboardPage(
   dashboardHeader(disable = TRUE),
   dashboardSidebar(disable = TRUE),
@@ -47,8 +49,6 @@ ui <- dashboardPage(
 
 
 server <- function(input, output){
-  
-  #load("~/Pruebas Dashboard/data/DATOS.RDATA")
   
   output$Salirayer<-renderPlotly({
     aux1<-input$localidad
