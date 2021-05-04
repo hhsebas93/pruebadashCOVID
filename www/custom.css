@@ -1,0 +1,76 @@
+  @font-face {
+    font-family: 'Gotham';
+    src: url("./GothamRounded-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url('./GothamRounded-Light.otf') format('opentype');
+}
+
+.skin-blue .left-side, .skin-blue .main-sidebar, .skin-blue .wrapper {
+    background-color: #FFFFFF;
+}
+
+/* header title font */
+  .main-header .logo {
+    font-family: 'Gotham',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    
+  }
+
+/* background color of header (logo part) */
+  .skin-blue .main-header .logo {
+    background-color: #EEEDEB;
+    color:#636363;
+  }
+  
+
+/* change the background color of header (logo part) when mouse hover */
+  .skin-blue .main-header .logo:hover {
+    background-color: #EEEDEB;
+  }
+
+
+/* background color for remaining part of the header */
+  .skin-blue .main-header .navbar {
+    background-color: #EEEDEB;
+  } 
+
+  .box.box-solid.box-primary {
+    border: 1px solid #ffffff;
+}
+
+.content-wrapper, .right-side {
+    min-height: 100%;
+    color:#333;
+    background-color: #FFFFFF;
+    z-index: 800;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gotham',sans-serif;
+    font-weight: bold;
+}
+
+.alert-info, .bg-aqua, .callout.callout-info, .label-info, .modal-info .modal-body {
+    background-color: #C4C4C4!important;
+}
+
+Style Attribute {
+    font-family: Gotham;
+    font-size: 11pt;
+    text-align: justify;
+    color: #686E7A;
+}
+
+.small-box.bg-yellow { 
+  background-color: #0A6371!important;
+  color: #FFFFFF!important; 
+}
+
+.small-box.bg-blue { 
+  background-color: #700B32!important;
+  color: #FFFFFF!important; 
+}
